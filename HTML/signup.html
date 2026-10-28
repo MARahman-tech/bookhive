@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign Up - BookHive</title>
+<meta name="description" content="Create your BookHive account.">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<header>
+  <h1>📚 BookHive</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="books.html">Books</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="cart.html">🛒 Cart (0)</a>
+    <a href="login.html">Login</a>
+  </nav>
+</header>
+
+<main>
+  <section class="form-section">
+    <h2>Create Your Account</h2>
+    <p>Join thousands of book lovers</p>
+    <form action="#" method="POST">
+      <div class="form-group">
+        <label for="fullname">Full Name *</label>
+        <input type="text" id="fullname" name="fullname" minlength="3" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="10-digit mobile number">
+      </div>
+      <div class="form-group">
+        <label for="password">Password *</label>
+        <input type="password" id="password" name="password" minlength="8" required>
+        <small>At least 8 characters</small>
+      </div>
+      <div class="form-group">
+        <label for="confirm-password">Confirm Password *</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+      </div>
+      <div class="form-group">
+        <label for="city">City</label>
+        <select id="city" name="city">
+          <option value="">-- Select your city --</option>
+          <option>Bengaluru</option>
+          <option>Mumbai</option>
+          <option>Delhi</option>
+          <option>Hyderabad</option>
+          <option>Chennai</option>
+          <option>Pune</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob">
+      </div>
+      <div class="form-group">
+        <p>I am interested in:</p>
+        <div class="checkbox-grid">
+          <label><input type="checkbox" name="interests" value="fiction"> Fiction</label>
+          <label><input type="checkbox" name="interests" value="education"> Education</label>
+          <label><input type="checkbox" name="interests" value="biography"> Biographies</label>
+          <label><input type="checkbox" name="interests" value="business"> Business</label>
+        </div>
+      </div>
+      <div class="form-group checkbox-group">
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I agree to the Terms and Conditions *</label>
+      </div>
+      <button type="submit" class="btn-primary">Create Account</button>
+      <p class="form-link">Already registered? <a href="login.html">Login here</a></p>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-content">
+    <div class="footer-column">
+      <h4>📚 BookHive</h4>
+      <p>India's favorite online bookstore.</p>
+    </div>
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="books.html">Books</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Account</h4>
+      <ul>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 BookHive. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
