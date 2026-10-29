@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Cart - BookHive</title>
+<meta name="description" content="Your BookHive shopping cart.">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<header>
+  <h1>📚 BookHive</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="books.html">Books</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="cart.html">🛒 Cart (0)</a>
+    <a href="login.html">Login</a>
+  </nav>
+</header>
+
+<main>
+  <section class="cart-section">
+    <h2>Your Shopping Cart</h2>
+    <table class="cart-table">
+      <thead>
+        <tr>
+          <th>Book</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Subtotal</th>
+          <th>Remove</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Atomic Habits</strong><br><small>James Clear</small></td>
+          <td>₹499</td>
+          <td><input type="number" class="qty-input" min="1" max="10" value="1"></td>
+          <td>₹499</td>
+          <td><button class="remove-btn" type="button">❌</button></td>
+        </tr>
+        <tr>
+          <td><strong>Wings of Fire</strong><br><small>A.P.J. Abdul Kalam</small></td>
+          <td>₹299</td>
+          <td><input type="number" class="qty-input" min="1" max="10" value="2"></td>
+          <td>₹598</td>
+          <td><button class="remove-btn" type="button">❌</button></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3"><strong>Total (incl. GST):</strong></td>
+          <td colspan="2"><strong>₹1,151.85</strong></td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <section class="order-summary">
+      <h3>Order Summary</h3>
+      <dl>
+        <dt>Subtotal:</dt><dd>₹1,097</dd>
+        <dt>Shipping:</dt><dd>FREE</dd>
+        <dt>GST (5%):</dt><dd>₹54.85</dd>
+      </dl>
+      <a href="#" class="btn-primary">Proceed to Checkout</a>
+      <a href="books.html" class="btn-secondary">Continue Shopping</a>
+    </section>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-content">
+    <div class="footer-column">
+      <h4>📚 BookHive</h4>
+      <p>India's favorite online bookstore.</p>
+    </div>
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="books.html">Books</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Account</h4>
+      <ul>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 BookHive. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
