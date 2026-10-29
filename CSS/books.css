@@ -1,0 +1,10 @@
+.page-header{max-width:none;background:linear-gradient(135deg,#5B3A29,#8B5E3C);color:var(--white);text-align:center}
+.page-header h2{font-size:2.5rem}
+.filters{background:var(--white);padding:var(--space-md);box-shadow:var(--shadow-sm);margin-bottom:var(--space-lg)}
+.search-box{max-width:600px;margin:0 auto var(--space-md)}
+.search-box input{width:100%;padding:var(--space-sm);border:2px solid #ddd;border-radius:var(--border-radius);font-size:1rem}
+.search-box input:focus{outline:none;border-color:var(--primary)}
+.filter-controls{display:flex;gap:var(--space-md);justify-content:center;flex-wrap:wrap;align-items:center}
+.filter-controls select{padding:var(--space-xs);border:1px solid #ddd;border-radius:var(--border-radius)}
+.books-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:var(--space-lg);padding:var(--space-md);max-width:var(--max-width);margin:0 auto}
+.books-grid .book-card{max-width:none}
