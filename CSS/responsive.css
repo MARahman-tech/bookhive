@@ -1,0 +1,23 @@
+@media(max-width:768px){
+ header{flex-direction:column;text-align:center;gap:var(--space-sm)}
+ header h1{font-size:1.5rem}
+ nav{justify-content:center;gap:var(--space-xs)}
+ nav a{font-size:.9rem;padding:4px 8px}
+ .hero{min-height:300px}
+ .hero h2{font-size:2rem}
+ .hero p{font-size:1rem}
+ .featured h2,.categories h2{font-size:2rem}
+ .filter-controls{flex-direction:column}
+ .cart-table thead{display:none}
+ .cart-table tr{display:block;margin-bottom:var(--space-md);padding:var(--space-sm)}
+ .cart-table td{display:block;border:0}
+}
+@media(max-width:480px){
+ header h1{font-size:1.25rem}
+ .hero h2{font-size:1.5rem}
+ .cover{height:180px}
+ .footer-content{text-align:center}
+}
+@media(min-width:1400px){
+ .hero h2{font-size:4rem}
+}
